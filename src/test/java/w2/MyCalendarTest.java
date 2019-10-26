@@ -17,7 +17,7 @@ class MyCalendarTest {
 
          String timeOfDay = calendar.getTimeOfDay(morningHour);
 
-         assertEquals("Morning", timeOfDay);
+         assertEquals("Night", timeOfDay);
          assertNotEquals("foo",timeOfDay);
 
          
